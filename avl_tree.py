@@ -158,17 +158,3 @@ if new_number:
     st.write(f"Current Median: {current_median}") # neu
     st.write(f"All Medians: {st.session_state.median_list}")
     st.line_chart(st.session_state.median_list, x_label="Iterations", y_label="Median values")
-
-#end_time = time.time()
-#execution_time = end_time - start_time
-#st.write(f"Execution time: {execution_time:.4f} seconds")
-
-
-    #streamlit run /Users/hb/Desktop/PythonProject/app.py 
-
-
-    #### WICHTIG: Es darf nicht sortiert werden, man darf keine vorgefertige sortierung nutzen! man muss das selbst 
-    #### sortieren, erstmal naiv (brute force)
-
-    # Links
-    # 
